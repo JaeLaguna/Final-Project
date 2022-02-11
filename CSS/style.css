@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body nav ul li {
+    list-style-type: none;
+    background-color: gray;
+    padding: 25px;
+    float: left
+}
+
+/* Nav Bar */
+
+body nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    background-color: red;
+}
+
+#home:hover {
+    background-color: pink;
+}
+
+#about {
+    background-color: blue;
+}
+
+#about:hover {
+    background-color: lightblue;
+}
+
+#contact {
+    background-color: green;
+}
+
+#contact:hover {
+    background-color: lightgreen;
+}
+
+/* Nav Bar */
