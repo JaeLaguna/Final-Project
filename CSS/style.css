@@ -3,21 +3,18 @@
     padding: 0;
 }
 
-body nav ul li {
-    list-style-type: none;
-    background-color: gray;
-    padding: 25px;
-    float: left
-}
-
 /* Nav Bar */
 
-body nav ul li a {
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-body nav ul li a:hover {
+nav ul li a:hover {
     color: black;
 }
 
