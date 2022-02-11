@@ -17,12 +17,17 @@ body nav ul li a {
     color: white;
 }
 
+body nav ul li a:hover {
+    color: black;
+}
+
 #home {
     background-color: red;
 }
 
 #home:hover {
     background-color: pink;
+    color: black;
 }
 
 #about {
@@ -31,6 +36,7 @@ body nav ul li a {
 
 #about:hover {
     background-color: lightblue;
+    color: black;
 }
 
 #contact {
@@ -39,6 +45,7 @@ body nav ul li a {
 
 #contact:hover {
     background-color: lightgreen;
+    color: black;
 }
 
 /* Nav Bar */
