@@ -8,10 +8,11 @@
  /* Body */
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 #center {
+    background-color: black;
     height: 650px;
     width: 100vw;
 }
@@ -21,26 +22,32 @@ body {
 /* Nav Bar */
 
 nav {
-    height: 100px;
+    height: 250px;
     width: 100vw;
-    background-color: rgb(0, 140, 255, 1);
+    background-color: rgb(134, 134, 134);
+    position: relative;
 }
 
 nav ul {
-    text-align: center;
+    padding: 0px 40px 0px 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 nav ul li {
     display: inline;
-    padding: 40px 80px;
+    padding: 10px 40px 1px 40px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 nav ul li a {
     color: white;
+    text-align: center;
 }
 
 nav ul li a:hover {
-    color: black;
+    color: white;
 }
 
 #home {
@@ -48,7 +55,7 @@ nav ul li a:hover {
 }
 
 #home:hover {
-    background-color: pink;
+    background-color: black;
     color: black;
 }
 
@@ -57,7 +64,7 @@ nav ul li a:hover {
 }
 
 #about:hover {
-    background-color: lightblue;
+    background-color: black;
     color: black;
 }
 
@@ -66,7 +73,7 @@ nav ul li a:hover {
 }
 
 #contact:hover {
-    background-color: lightgreen;
+    background-color: black;
     color: black;
 }
 
@@ -74,10 +81,35 @@ nav ul li a:hover {
 
 /* Footer */
 
-#footer {
+footer {
     width: 100vw;
-    height: 60px;
-    background-color: rgb(0, 140, 255, 1);
+    height: 40px;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    bottom: 0px;
 }
 
+footer div {
+    height: 0px;
+    display: inline-block;
+    margin: 0px 15px;
+    position: relative;
+    left: 42%;
+    top: 8px;
+}
+
+#iglogo {
+    background-color: none;
+    width: 25px;
+}
+
+#twitterlogo {
+    background-color: none;
+    width: 43px;
+}
+
+#fblogo {
+    background-color: none;
+    width: 25px;
+}
 /* Footer */
