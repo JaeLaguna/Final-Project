@@ -17,6 +17,21 @@ body {
     width: 100vw;
 }
 
+body div {
+    display: inline-block;
+}
+.column1 {
+    background-color: white;
+    width: 40vw;
+    height: 40%;
+}
+
+.column2 {
+    background-color: white;
+    width: 40vw;
+    height: 40%;
+}
+
 /* Body */
 
 /* Nav Bar */
