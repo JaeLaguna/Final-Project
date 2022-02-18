@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* About Page */
+
+#centerabout {
+    padding: 100px;
+    margin: 100px;
+    background-color: white;
+    width: 950px;
+    height: 500px;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 25px;
+    font-weight: bold;
+        /* Container? */
+}
+
+#aboutcontent {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* About */
+
+
+ /* Body */
+
+body {
+    background-color: black;
+}
+
+/* Body */
+
+/* Header */
+
+#header {
+    background-image: url(../images/BMBanner.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* Header */
+
+/* Nav Bar */
+
+nav {
+    background-color: none;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+
+nav ul {
+    margin: 0px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+        /* float: right; */
+        /* Alt to position */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 50px 0px 0px;
+}
+
+nav ul li a {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-align: center;
+}
+
+nav ul li a:active {
+    color: rgb(0, 0, 0);
+}
+
+#home {
+    background-color: black;
+}
+
+#home:hover {
+    color: white;
+}
+
+#about {
+    background-color: black;
+}
+
+#about:hover {
+    color: white;
+}
+
+#contact {
+    background-color: black;
+}
+
+#contact:hover {
+    color: white;
+}
+
+/* Nav Bar */
+
+/* Center Content */
+
+#content {
+    display: inline-block;
+    background-image: url(../images/bmgoat.jpeg);
+    background-size: cover;
+    background-position: 50%;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 25px 0px 0px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    padding: 50px 0px 0px 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.column1,.column2 {
+    display: inline-block;
+}
+
+.column1 {
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(28, 86, 245);
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 35px;
+
+}
+
+.column2 {
+    width: 500px;
+    height: 500px;
+    background-color: none;
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.video {
+    clear: right;
+    margin: 120px 0px 100px 0px;
+}
+
+#fivelug {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#engineswap {
+    margin-right: 50px ;
+}
+
+#enginerebuild {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+/* Center Content */
+
+/* Footer */
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+}
+
+footer div {
+    display: inline-block;
+    background-color: white;
+    height: 25px;
+    margin: 7px 10px 0px 10px;
+    position: relative;
+    left: 44%;
+}
+
+#iglogo {
+    background-color: none;
+    width: 25px;
+}
+
+#twitterlogo {
+    background-color: none;
+    width: 43px;
+}
+
+#fblogo {
+    background-color: none;
+    width: 25px;
+}
+/* Footer */
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+/* font-family: 'Inconsolata', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+/* Fonts */
