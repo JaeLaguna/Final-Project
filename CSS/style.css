@@ -5,33 +5,33 @@
     text-decoration: none;
 }
 
-/* Contact Page */
+/* About Page */
 
-.navabout {
-    background-color: black;
-}
-
-#centercontact {
+#centerabout {
     padding: 100px;
     margin: 100px;
-    background-color: red;
+    background-color: white;
     width: 950px;
     height: 500px;
     text-align: center;
     font-size: 100px;
+    border-radius: 25px;
+    font-weight: bold;
+        /* Container? */
 }
 
 #aboutcontent {
     font-size: 25px;
+    font-weight: bold;
 }
 
-/* Contact Page */
+/* About */
 
 
  /* Body */
 
 body {
-    background-color: yellow;
+    background-color: black;
 }
 
 /* Body */
@@ -40,17 +40,15 @@ body {
 
 #header {
     background-image: url(../images/BMBanner.jpg);
-    background-size: 99vw 250px;
+    background-size: 100% 250px;
     background-repeat: no-repeat;
     height: 250px;
-    width: 99vw;
-    background-color: green;
+    width: 100%;
     position: relative;
 }
 
 #logo {
-    display: inline-block;
-    width: 55px;
+    width: 70px;
     border-radius: 50%;
 }
 
@@ -60,27 +58,29 @@ body {
 
 nav {
     background-color: none;
+    width: 100%;
+    position: relative;
+    top: 0%;
 }
 
 nav ul {
-    padding: 0px 25px 0px 0px;
-    /* Adjust */
+    margin: 0px 10px 0px 0px;
     position: absolute;
     top: 0px;
     right: 0px;
+        /* float: right; */
+        /* Alt to position */
 }
 
 nav ul li {
     display: inline;
-    padding: 0px 40px;
+    margin: 0px 50px 0px 0px;
 }
 
 nav ul li a {
     font-family: 'Inconsolata', monospace;
     color: white;
     text-align: center;
-    position: relative;
-    top: 4px;
 }
 
 nav ul li a:active {
@@ -118,46 +118,68 @@ nav ul li a:active {
 #content {
     display: inline-block;
     background-image: url(../images/bmgoat.jpeg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
-#content {
-    width: 99vw;
-    height: 650px;
+h1 {
+    font-size: 50px;
+    padding: 25px 0px 0px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    padding: 50px 0px 0px 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.column1,.column2 {
+    display: inline-block;
 }
 
 .column1 {
     float: left;
-    background-color: red;
-    width: 40vw;
-    height: 80%;
-    padding: 0px 0px 0px 0px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(28, 86, 245);
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 35px;
+
 }
 
 .column2 {
-    float: left;
+    width: 500px;
+    height: 500px;
     background-color: none;
-    width: 40vw;
-    height: 80%;
-    padding: 0px 0px 0px 0px;
-    /* adjust left to 30 */
-    margin: 0px 0px 0px 0px;
-    /* adjust left to 30 */
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.video {
+    clear: right;
+    margin: 120px 0px 100px 0px;
 }
 
 #fivelug {
     width: 100%;
     height: 100%;
+    border-radius: 25px;
 }
 
 #engineswap {
-    width: 100%;
-    height: 100%;
+    margin-right: 50px ;
 }
 
 #enginerebuild {
     width: 100%;
     height: 100%;
+    border-radius: 25px;
 }
 
 /* Center Content */
@@ -165,21 +187,20 @@ nav ul li a:active {
 /* Footer */
 
 footer {
-    display: inline-block;
-    width: 99vw;
-    height: 40px;
-    background-color: black;
+    display: block;
+    width: 100%;
+    background-color: white;
     position: relative;
     bottom: 0px;
 }
 
 footer div {
-    height: 0px;
     display: inline-block;
-    margin: 0px 15px;
+    background-color: white;
+    height: 25px;
+    margin: 7px 10px 0px 10px;
     position: relative;
-    left: 42%;
-    top: 8px;
+    left: 44%;
 }
 
 #iglogo {
@@ -201,5 +222,11 @@ footer div {
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+/* font-family: 'Inconsolata', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* font-family: 'Roboto Condensed', sans-serif; */
 
 /* Fonts */
